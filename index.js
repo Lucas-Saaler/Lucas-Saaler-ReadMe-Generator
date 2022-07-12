@@ -1,7 +1,9 @@
+// Required libraries
 const inquirer = require('inquirer')
 const generateMarkdown = require('./utils/generateMarkdown')
 const fs = require('fs')
 
+// Array of Inquirer questions
 const questions = [
     {
         type: "input",
@@ -22,7 +24,7 @@ const questions = [
         type: "list",
         name: "license",
         message: "Pick one from the following licenses.",
-        choices:["MIT", "IBM", "Apache"]
+        choices:["MIT", "IBM", "Apache", "I wish to specify my own"]
     },
     {
         type: "input",
@@ -51,9 +53,7 @@ const questions = [
     }
 ];
 
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
-
+// Displays the questions and writes the README file
 function init() {
     inquirer.prompt(questions)
     .then(data => {
@@ -62,4 +62,5 @@ function init() {
     })
 }
 
+// Calls the function
 init();
