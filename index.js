@@ -23,6 +23,31 @@ const questions = [
         name: "license",
         message: "Pick one from the following licenses.",
         choices:["MIT", "IBM", "Apache"]
+    },
+    {
+        type: "input",
+        name: "credits",
+        message: "Did you collaborate with anybody? Include the names and GitHub links."
+    },
+    {
+        type: "input",
+        name: "usage",
+        message: "Describe how to use your project."
+    },
+    {
+        type: "input",
+        name: "contribute",
+        message: "How can people contribute to your project?"
+    },
+    {
+        type: "input",
+        name: "tests",
+        message: "Please write some tests or examples for your project."
+    },
+    {
+        type: "input",
+        name: "questions",
+        message: "Answer some questions about your application. What are your GitHub link and email address, for example? What is the best way to contact you with further questions?"
     }
 ];
 
