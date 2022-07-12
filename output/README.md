@@ -20,24 +20,24 @@ This application allows users to generate professional README files via the usag
 
 ## Installation
 
-After you download this file, run "npm i" in your terminal to install the required libraries.
+To install this application, download the file and run "npm i" in your terminal.
 
 ## Usage
 
-After you download the file, you can use this project by entering "node index" in your terminal. From there, answer any questions when prompted. Any README you generate will go in the output folder, replacing the example README I included with this repo.    
+To use this project, simply run "node index" and answer all prompts when questioned. I will include a video walkthrough link in the final README.    
 
 ## Credits
 
-I wrote all of this code myself using NodeJS and Inquirer.
+I wrote this code myself using NodeJS and Inquirer
 
 ## Contributions
 
-You can contribute to this project by contacting me at lucassaaler00@gmail.com
+To contribute to this project, you can go to my GitHub page here: https://github.com/Lucas-Saaler Alternatively, you can contact me at lucassaaler00@gmail.com
 
 ## Tests
 
-The README included with this repo was mostly generated via the use of this application. To see a raw output, check out the example README in the output folder before generating your own README
+The README included with this repo was generated via the usage of this application.
 
 ## Questions
 
-For more questions, you may visit my repo here: https://github.com/Lucas-Saaler/ Alternatively, you can contact me at lucassaaler00@gmail.com
+Feel free to contact me at lucassaaler00@gmail.com if you have any questions.
