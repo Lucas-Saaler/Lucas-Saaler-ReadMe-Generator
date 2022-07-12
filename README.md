@@ -24,7 +24,7 @@ After you download this file, run "npm i" in your terminal to install the requir
 
 After you download the file, you can use this project by entering "node index" in your terminal. From there, answer any questions when prompted. Any README you generate will go in the output folder, replacing the example README I included with this repo.
 
-Here is a video walkthrough: https://drive.google.com/file/d/1x21ssucpUC6HwNlOLfjnRPu9d3a4aM-W/view?usp=sharing
+Here is a video walkthrough: https://drive.google.com/file/d/1yfJnnDNgRDrdwvWlivmsTekir2a6ZAi6/view?usp=sharing
 
 ## Credits
 
